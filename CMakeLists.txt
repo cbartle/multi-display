@@ -26,6 +26,7 @@ target_link_libraries(shift_register
         pico_stdlib 
         hardware_i2c
         pico_cyw43_arch_none
+        hardware_adc
         )
 
 # enable usb output, disable uart output
